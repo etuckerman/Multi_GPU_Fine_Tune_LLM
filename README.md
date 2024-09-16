@@ -2,6 +2,9 @@
 
 This repository contains code and configurations for fine-tuning language models using DeepSpeed, LoRA, and advanced quantization techniques. The primary components include configuration files, a training script, a Jupyter notebook for experimentation, and utility functions.
 
+![GPU Utilization](https://github.com/etuckerman/Multi_GPU_Fine_Tune_LLM/blob/main/images/dual_gpu.png)
+
+
 ## Project Structure
 
 - **`deepspeed_config_z3_qlora.yaml`**: Configuration file for DeepSpeed. It includes settings for mixed precision, distributed training, and optimizer offloading.
